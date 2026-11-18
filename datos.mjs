@@ -151,6 +151,16 @@ export default {
 "fuente": "hcch"
 },
 {
+"id": "exento-ue",
+"cuando": [
+"exento_ue",
+"!via:refugiado"
+],
+"texto": "Certificados de nacimiento y de antecedentes penales de tu país de la UE, sin apostilla ni legalización",
+"detalle": "El Reglamento (UE) 2016/1191 exime a los documentos que cubre su artículo 2 (el de antecedentes, solo si lo expide el Estado de tu nacionalidad). La traducción sigue haciendo falta salvo que el documento lleve el impreso estándar multilingüe y la autoridad lo acepte.",
+"fuente": "pt-reg"
+},
+{
 "id": "traduccion",
 "cuando": [
 "traduccion"
@@ -278,12 +288,14 @@ export default {
 "url": "https://cervantes.org/es/preguntas-frecuentes"
 },
 "ine": {
-"titulo": "INE: adquisiciones de nacionalidad española de residentes, año 2024 (nota de prensa)",
-"url": "https://ine.es/dyngs/Prensa/EANER2024.htm"
+"titulo": "INE: adquisiciones de nacionalidad española de residentes, año 2025 (nota de prensa)",
+"url": "https://ine.es/dyngs/Prensa/EANER2025.htm",
+"consultado": "2026-11-15"
 },
 "hcch": {
 "titulo": "Conferencia de La Haya: estado del Convenio de la Apostilla",
-"url": "https://www.hcch.net/es/instruments/conventions/status-table/?cid=41"
+"url": "https://www.hcch.net/es/instruments/conventions/status-table/?cid=41",
+"consultado": "2026-11-15"
 },
 "legal": {
 "titulo": "Ministerio de Asuntos Exteriores: legalización y apostilla",
@@ -295,11 +307,13 @@ export default {
 },
 "ec": {
 "titulo": "Gobierno de Ecuador: certificado de antecedentes penales",
-"url": "https://www.gob.ec/mdi/tramites/emision-certificado-antecedentes-penales"
+"url": "https://www.gob.ec/mdi/tramites/emision-certificado-antecedentes-penales",
+"consultado": "2026-11-14"
 },
 "ar": {
 "titulo": "Gobierno de Argentina: certificado de antecedentes penales",
-"url": "https://www.argentina.gob.ar/servicio/solicitar-certificado-de-antecedentes-penales-con-documento-extranjero"
+"url": "https://www.argentina.gob.ar/servicio/solicitar-certificado-de-antecedentes-penales-con-documento-extranjero",
+"consultado": "2026-11-14"
 },
 "ccsebru": {
 "titulo": "Instituto Cervantes de Bruselas: prueba CCSE",
@@ -308,6 +322,91 @@ export default {
 "como": {
 "titulo": "Sede electrónica del Ministerio de Justicia: «Cómo va lo mío»",
 "url": "https://sede.mjusticia.gob.es/tramites/como"
+},
+"ine-tabla": {
+"titulo": "INE: adquisiciones de nacionalidad por nacionalidad previa (INEbase, series 2024 y 2025)",
+"url": "https://ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177001&menu=resultados&idp=1254735573002",
+"consultado": "2026-11-15"
+},
+"uy-ant": {
+"titulo": "Gobierno de Uruguay (gub.uy): certificado de antecedentes judiciales",
+"url": "https://www.gub.uy/tramites/certificado-antecedentes-judiciales",
+"consultado": "2026-11-15"
+},
+"uy-apo": {
+"titulo": "Gobierno de Uruguay (gub.uy): apostilla y legalización de documentos públicos uruguayos",
+"url": "https://www.gub.uy/tramites/apostilla-yo-legalizacion-documentos-publicos-uruguayos-extranjeros-produzcan-efectos-exterior-republica",
+"consultado": "2026-11-15"
+},
+"uy-nac": {
+"titulo": "Gobierno de Uruguay (gub.uy): solicitud de partidas de nacimiento",
+"url": "https://www.gub.uy/tramites/solicitud-partidas-nacimiento",
+"consultado": "2026-11-15"
+},
+"cl-ant": {
+"titulo": "ChileAtiende: certificado de antecedentes",
+"url": "https://www.chileatiende.gob.cl/fichas/3442-certificado-de-antecedentes",
+"consultado": "2026-11-15"
+},
+"cl-apo": {
+"titulo": "ChileAtiende: legalización o apostilla de documentos emitidos en Chile",
+"url": "https://www.chileatiende.gob.cl/fichas/2377-legalizacion-o-apostilla-de-documentos-emitidos-en-chile-para-que-tengan-validez-en-el-extranjero",
+"consultado": "2026-11-15"
+},
+"pt-reg": {
+"titulo": "Reglamento (UE) 2016/1191, documentos públicos (BOE/DOUE)",
+"url": "https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-81317",
+"consultado": "2026-11-15"
+},
+"pt-ant": {
+"titulo": "Portal del Registo Criminal de Portugal: preguntas frecuentes (en portugués)",
+"url": "https://registocriminal.justica.gov.pt/perguntas-frequentes?request_locale=pt",
+"consultado": "2026-11-15"
+},
+"ad-ant": {
+"titulo": "Consell Superior de la Justícia de Andorra: antecedentes penales (en catalán)",
+"url": "https://www.justicia.ad/antecedents-penals/",
+"consultado": "2026-11-15"
+},
+"ad-apo": {
+"titulo": "Gobierno de Andorra, Asuntos Exteriores: legalización de documentos (en inglés)",
+"url": "https://www.govern.ad/en/ministries-and-secretaries-of-state/ministry-of-foreign-affairs/the-ministry/international-legal-affairs-and-human-resources/legalization-of-documents",
+"consultado": "2026-11-15"
+},
+"ve-ant": {
+"titulo": "Venezuela, Ministerio de Interior, Justicia y Paz: certificación de antecedentes para trámites internacionales",
+"url": "http://certificacioninternacional.mijp.gob.ve/paginas/CU_normas/",
+"consultado": "2026-11-15"
+},
+"ve-apo": {
+"titulo": "Venezuela, Cancillería: Sistema de Legalización y Apostilla Electrónica",
+"url": "https://legalizacionve.mppre.gob.ve/",
+"consultado": "2026-11-15"
+},
+"ve-bcn": {
+"titulo": "Consulado de Venezuela en Barcelona: apostilla de La Haya",
+"url": "https://consuladobarcelona.gob.ve/webalterna/apostilla-de-la-haya/",
+"consultado": "2026-11-15"
+},
+"ec-apo": {
+"titulo": "Cancillería de Ecuador: sistema de apostillas y legalizaciones electrónicas",
+"url": "https://www.cancilleria.gob.ec/2024/07/15/sistema-de-apostillas-y-legalizaciones-electronicas-del-ecuador/",
+"consultado": "2026-11-15"
+},
+"ar-apo": {
+"titulo": "Cancillería de Argentina: apostilla y legalización por TAD",
+"url": "https://www.cancilleria.gob.ar/es/servicios/apostilla-legalizacion-con-validez-internacional-tad",
+"consultado": "2026-11-15"
+},
+"pe-ant": {
+"titulo": "Poder Judicial del Perú: requisitos del certificado de antecedentes penales",
+"url": "https://www.pj.gob.pe/wps/wcm/connect/CorteSuprema/s_cortes_suprema_home/as_servicios/as_enlaces_de_interes/as_registro_nacional_condenas/as_requisitos/",
+"consultado": "2026-11-15"
+},
+"do-apo": {
+"titulo": "Cancillería de República Dominicana (Consulado en Ámsterdam): apostilla en línea",
+"url": "https://nld.mirex.gob.do/consular/amsterdam/procedimiento-para-el-servicio-de-apostilla-en-linea/",
+"consultado": "2026-11-15"
 }
 },
 "paises": [
@@ -320,20 +419,20 @@ export default {
 "apostilla": "2016-08-14"
 },
 {
-"id": "venezuela",
-"nombre": "Venezuela",
-"dos_anios": true,
-"dele_exento": true,
-"idioma_es": true,
-"apostilla": "1999-03-16"
-},
-{
 "id": "colombia",
 "nombre": "Colombia",
 "dos_anios": true,
 "dele_exento": true,
 "idioma_es": true,
 "apostilla": "2001-01-30"
+},
+{
+"id": "venezuela",
+"nombre": "Venezuela",
+"dos_anios": true,
+"dele_exento": true,
+"idioma_es": true,
+"apostilla": "1999-03-16"
 },
 {
 "id": "honduras",
@@ -344,6 +443,14 @@ export default {
 "apostilla": "2004-09-30"
 },
 {
+"id": "peru",
+"nombre": "Perú",
+"dos_anios": true,
+"dele_exento": true,
+"idioma_es": true,
+"apostilla": "2010-09-30"
+},
+{
 "id": "ecuador",
 "nombre": "Ecuador",
 "dos_anios": true,
@@ -352,12 +459,12 @@ export default {
 "apostilla": "2005-04-02"
 },
 {
-"id": "peru",
-"nombre": "Perú",
+"id": "argentina",
+"nombre": "Argentina",
 "dos_anios": true,
 "dele_exento": true,
 "idioma_es": true,
-"apostilla": "2010-09-30"
+"apostilla": "1988-02-18"
 },
 {
 "id": "dominicana",
@@ -368,12 +475,37 @@ export default {
 "apostilla": "2009-08-30"
 },
 {
-"id": "argentina",
-"nombre": "Argentina",
+"id": "chile",
+"nombre": "Chile",
 "dos_anios": true,
 "dele_exento": true,
 "idioma_es": true,
-"apostilla": "1988-02-18"
+"apostilla": "2016-08-30"
+},
+{
+"id": "uruguay",
+"nombre": "Uruguay",
+"dos_anios": true,
+"dele_exento": true,
+"idioma_es": true,
+"apostilla": "2012-10-14"
+},
+{
+"id": "portugal",
+"nombre": "Portugal",
+"dos_anios": true,
+"dele_exento": false,
+"idioma_es": false,
+"apostilla": "1969-02-04",
+"exento_ue": true
+},
+{
+"id": "andorra",
+"nombre": "Andorra",
+"dos_anios": true,
+"dele_exento": false,
+"idioma_es": false,
+"apostilla": "1996-12-31"
 },
 {
 "id": "bolivia",
@@ -400,24 +532,8 @@ export default {
 "apostilla": "2014-08-30"
 },
 {
-"id": "chile",
-"nombre": "Chile",
-"dos_anios": true,
-"dele_exento": true,
-"idioma_es": true,
-"apostilla": "2016-08-30"
-},
-{
 "id": "mexico",
 "nombre": "México",
-"dos_anios": true,
-"dele_exento": true,
-"idioma_es": true,
-"apostilla": "sin-verificar"
-},
-{
-"id": "uruguay",
-"nombre": "Uruguay",
 "dos_anios": true,
 "dele_exento": true,
 "idioma_es": true,
@@ -469,22 +585,6 @@ export default {
 "dos_anios": true,
 "dele_exento": true,
 "idioma_es": true,
-"apostilla": "sin-verificar"
-},
-{
-"id": "portugal",
-"nombre": "Portugal",
-"dos_anios": true,
-"dele_exento": false,
-"idioma_es": false,
-"apostilla": "sin-verificar"
-},
-{
-"id": "andorra",
-"nombre": "Andorra",
-"dos_anios": true,
-"dele_exento": false,
-"idioma_es": false,
 "apostilla": "sin-verificar"
 },
 {

@@ -1,5 +1,7 @@
 // Interfaz del comprobador, la lista de documentos y el botón del kit. Sin red: solo localStorage.
 import DATOS from './datos.mjs';
+import MEDIR from './medir-config.mjs';
+import { iniciarMedicion } from './medir.mjs';
 import { CLAVE, comprobar, documentos, leerTexto, viaPorPais, condiciones } from './motor.mjs';
 
 const $ = id => document.getElementById(id);
@@ -137,8 +139,7 @@ function iniciarApp(raiz) {
   });
 }
 
-// Botón del kit: no cobra, no recoge datos y no hace peticiones. La medición de clics queda preparada
-// en el atributo data-medir para cuando el proyecto tenga un contador sin datos personales.
+// Botón del kit: no cobra ni recoge datos. Lanza el evento «medir», que medir.mjs solo envía si medir-config.mjs tiene dirección (hoy vacía).
 function iniciarKit(boton) {
   const msg = $('kit-msg');
   boton.addEventListener('click', () => {
@@ -148,6 +149,7 @@ function iniciarKit(boton) {
   });
 }
 
+iniciarMedicion(MEDIR);
 const raiz = $('app');
 if (raiz) iniciarApp(raiz);
 const kit = $('kit');

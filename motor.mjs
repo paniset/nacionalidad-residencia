@@ -103,7 +103,8 @@ export function condiciones(perfil, datos) {
   const supuesto = via && via.supuestos ? via.supuestos.find(s => s.id === perfil.supuesto) : null;
   const c = new Set(['siempre']);
   if (pais) {
-    if (pais.apostilla === 'sin-verificar') c.add('apostilla_desconocida');
+    if (pais.exento_ue) c.add('exento_ue');
+    else if (pais.apostilla === 'sin-verificar') c.add('apostilla_desconocida');
     else c.add(pais.apostilla ? 'apostilla' : 'legalizacion');
     if (!pais.idioma_es) c.add('traduccion');
   }
