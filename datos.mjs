@@ -407,6 +407,11 @@ export default {
 "titulo": "Cancillería de República Dominicana (Consulado en Ámsterdam): apostilla en línea",
 "url": "https://nld.mirex.gob.do/consular/amsterdam/procedimiento-para-el-servicio-de-apostilla-en-linea/",
 "consultado": "2026-11-15"
+},
+"mjstat": {
+"titulo": "Ministerio de Justicia: datos estadísticos básicos de nacionalidad a 30/09/2026 (PDF)",
+"url": "https://www.mjusticia.gob.es/documents/d/asset-library-280926/estadisticas_nacionalidad_30-09-2026",
+"consultado": "2026-11-24"
 }
 },
 "paises": [
