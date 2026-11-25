@@ -412,6 +412,41 @@ export default {
 "titulo": "Ministerio de Justicia: datos estadísticos básicos de nacionalidad a 30/09/2026 (PDF)",
 "url": "https://www.mjusticia.gob.es/documents/d/asset-library-280926/estadisticas_nacionalidad_30-09-2026",
 "consultado": "2026-11-24"
+},
+"co-ant": {
+"titulo": "Colombia, Cancillería: certificado de antecedentes judiciales (apostilla en línea)",
+"url": "https://cancilleria.gov.co/atencion-y-servicio-al-ciudadano/certificado-de-antecedentes-judiciales",
+"consultado": "2026-11-24"
+},
+"co-apo": {
+"titulo": "Colombia, Cancillería: apostilla y legalización en línea, preguntas frecuentes",
+"url": "https://cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/apostilla-y-legalizacion-en-linea/preguntas-frecuentes",
+"consultado": "2026-11-24"
+},
+"co-reg": {
+"titulo": "Colombia, Cancillería: requisitos de apostilla (registros civiles de la Registraduría)",
+"url": "https://cancilleria.gov.co/atencion-y-servicio-al-ciudadano/tramites-y-servicios/apostilla-y-legalizacion-en-linea/requisitos",
+"consultado": "2026-11-24"
+},
+"ma-ant": {
+"titulo": "Marruecos, Ministerio de Asuntos Exteriores (consulat.ma): antecedentes penales de nacionales marroquíes",
+"url": "https://consulat.ma/index.php/en/criminal-records-moroccan-nationals",
+"consultado": "2026-11-24"
+},
+"ma-apo": {
+"titulo": "Marruecos, Ministerio de Asuntos Exteriores (consulat.ma): apostilla",
+"url": "https://www.consulat.ma/fr/apostille-certifiez-authenticite-de-signatures-de-documents",
+"consultado": "2026-11-24"
+},
+"ma-nac": {
+"titulo": "Marruecos, Ministerio de Asuntos Exteriores (consulat.ma): copia íntegra del acta de nacimiento",
+"url": "https://consulat.ma/index.php/en/full-copy-birth-certificate",
+"consultado": "2026-11-24"
+},
+"hn-ant": {
+"titulo": "Honduras, Poder Judicial: sistema de pagos en línea (constancia de antecedentes penales y auténtica)",
+"url": "https://pagosenlineapj.poderjudicial.gob.hn/",
+"consultado": "2026-11-24"
 }
 },
 "paises": [
