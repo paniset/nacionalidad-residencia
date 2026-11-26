@@ -139,7 +139,7 @@ function iniciarApp(raiz) {
   });
 }
 
-// Botón del kit: no cobra ni recoge datos. Lanza el evento «medir», que medir.mjs solo envía si medir-config.mjs tiene dirección (hoy vacía).
+// Botón del kit: no cobra ni recoge datos. Lanza el evento «medir», que medir.mjs solo envía si medir-config.mjs tiene dirección.
 function iniciarKit(boton) {
   const msg = $('kit-msg');
   boton.addEventListener('click', () => {
